@@ -980,6 +980,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4349177559767220948}
     m_Modifications:
+    - target: {fileID: 347745744561237566, guid: 3657cd2e51685d54fb2cd4b1806bb175, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2807036476355582395, guid: 3657cd2e51685d54fb2cd4b1806bb175, type: 3}
       propertyPath: m_Name
       value: Locked Door

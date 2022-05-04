@@ -28,14 +28,14 @@ public class ButtonDoorController : MonoBehaviour
             doorAnim.Play(openAnimationName, 0, 0.0f);
             doorOpen = true;
             StartCoroutine(PauseDoorInteraction());
-            Debug.Log("open");
+            
         }
         else if (doorOpen && !pauseInteraction)
         {
             doorAnim.Play(closeAnimationName, 0, 0.0f);
             doorOpen = false;
             StartCoroutine(PauseDoorInteraction());
-            Debug.Log("close");
+            
 
         }
     }

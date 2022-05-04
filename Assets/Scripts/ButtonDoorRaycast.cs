@@ -60,7 +60,7 @@ public class ButtonDoorRaycast : MonoBehaviour
     {
         if (on && !doOnce)
         {
-            crosshair.color = Color.red;
+            crosshair.color = Color.green;
         }
         else
         {
