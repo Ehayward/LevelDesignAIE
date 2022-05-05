@@ -6,11 +6,17 @@ public class Antidote : MonoBehaviour
 {
     public GameObject ButtonToEnable;
     public bool gotAntidote = false;
+    public int speed;
+    private Vector3 rotation;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        rotation = new Vector3(0, speed, 0);
+    }
+    // Start is called before the first frame update
+    void Update()
+    {
+        transform.Rotate(rotation * Time.deltaTime);
     }
 
     // Update is called once per frame
