@@ -983,7 +983,7 @@ PrefabInstance:
     - target: {fileID: 347745744561237566, guid: 3657cd2e51685d54fb2cd4b1806bb175, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 9100000, guid: 9bae9fa61db1d774ab19639fc35d2db1, type: 2}
     - target: {fileID: 2807036476355582395, guid: 3657cd2e51685d54fb2cd4b1806bb175, type: 3}
       propertyPath: m_Name
       value: Locked Door
