@@ -82,10 +82,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2690134187693510071, guid: 9fe4bc2a39ee01e4eab72471e0ad9f22, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6bba116afb3fa6446b9999ea0510bba8, type: 2}
     - target: {fileID: 919132149155446097, guid: 9fe4bc2a39ee01e4eab72471e0ad9f22, type: 3}
       propertyPath: m_Name
       value: sm_cable_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1327568733198325735, guid: 9fe4bc2a39ee01e4eab72471e0ad9f22, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff822ff764c595445825f12a5e36037e, type: 2}
+    - target: {fileID: 4878191787561613047, guid: 9fe4bc2a39ee01e4eab72471e0ad9f22, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6bba116afb3fa6446b9999ea0510bba8, type: 2}
+    - target: {fileID: 7220676442781968581, guid: 9fe4bc2a39ee01e4eab72471e0ad9f22, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d588d5c6b0dc904aa7fcf5d7396e7ee, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fe4bc2a39ee01e4eab72471e0ad9f22, type: 3}
 --- !u!4 &7922291225998325844 stripped
