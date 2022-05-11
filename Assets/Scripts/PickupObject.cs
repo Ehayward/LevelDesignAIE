@@ -7,7 +7,7 @@ public class PickupObject : MonoBehaviour {
 	GameObject mainCamera;
 	bool carrying;
 	GameObject carriedObject;
-	public float distance = 3.0f;
+	public float distance = 2.0f;
 	public float smooth = 10.0f;
 	// Use this for initialization
 	void Start () {

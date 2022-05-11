@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1578945942745970593}
   - component: {fileID: 7838373865008645988}
   - component: {fileID: 5704112899163248738}
+  - component: {fileID: 5228650656894253304}
   m_Layer: 0
   m_Name: Key Cartridge
   m_TagString: Untagged
@@ -92,6 +93,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c31274c403ea8c4f961bc2bedd54e77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5228650656894253304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5326595411655961227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2407e847a97fbe4b9382d7ce757cebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundToPlay: {fileID: 8300000, guid: f81cca7a7eee72c46b327ff23d311e74, type: 3}
+  remoteSoundEffect: 0
+  remoteSFXLocation: {fileID: 0}
+  sourceToPlay: {fileID: 0}
+  volume: 0.75
+  destructible: 0
 --- !u!1 &6671052614458315212
 GameObject:
   m_ObjectHideFlags: 0
