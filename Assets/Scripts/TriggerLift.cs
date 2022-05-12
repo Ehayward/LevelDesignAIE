@@ -5,7 +5,7 @@ using UnityEngine;
 public class TriggerLift : MonoBehaviour
 {
     public GameObject objectToMove;
-    public GameObject particalEffect;
+    public Transform lift;
 
 
     private void OnTriggerEnter(Collider other)
@@ -13,7 +13,7 @@ public class TriggerLift : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             objectToMove.GetComponent<Animator>().SetTrigger("TriggerLift");
-            other.transform.SetParent(gameObject.transform);
+        
         }
     }
 }
