@@ -19,6 +19,10 @@ public class ButtonDoorRaycast : MonoBehaviour
 
     private const string interactableTag = "DoorButton";
 
+    public GameObject textbox;
+    public Text textField;
+    private bool fieldIsActive;
+
     private void Update()
     {
         RaycastHit hit;
@@ -61,11 +65,13 @@ public class ButtonDoorRaycast : MonoBehaviour
         if (on && !doOnce)
         {
             crosshair.color = Color.green;
+            textField.gameObject.SetActive(true);
         }
         else
         {
             crosshair.color = Color.white;
             isCrosshairActive = false;
+            textField.gameObject.SetActive(false);  
         }
     }
 
